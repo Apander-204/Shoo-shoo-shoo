@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #656565;
+}
+
+h1 {
+    font-size: 50px;
+    padding-top: 50px;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    color: #212121;
+    text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+    image-rendering: pixelated;
+}
+
+button {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+#pit {
+    background-image: url("https://i.postimg.cc/hvDxxWfJ/000038544635.jpg");
+    background-size: cover;
+}
+
+#paper {
+    background-image: url(https://i.postimg.cc/V6BndLLQ/f63742aa9e62d14fdeaafa0ea4d5b4ae.jpg);
+    background-size: cover;
+}
+
+#fire {
+    background-image: url(https://i.postimg.cc/9Mjymq2Y/flame-fireworks-stock-photography-image-png-favpng-UCx9d4-Xdjc-Zx-Zw-GRXa-EZLu6u-U.jpg);
+    background-size: cover;
+}
+
+button img{
+    width: 50px;
+    height: 50px;
+}
+
+#opponent {
+    width: 458px;
+    height: 458px;
+    border-radius: 15px;
+    padding-top: 25px;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    padding-left: auto;
+    padding-right: auto;
+    align-items: center;
+}
+
+#result {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.buttons {
+    padding-top: 25px;
+}
